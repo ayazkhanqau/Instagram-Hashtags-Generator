@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_views"
+        android:enabled="true"
+        android:icon="@drawable/ic_category"
+        android:title="Category"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_campaigns"
+        android:enabled="true"
+        android:icon="@drawable/ic_campaigns"
+        android:title="Generator"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_subs"
+        android:enabled="true"
+        android:icon="@drawable/ic_subs"
+        android:title="Subscribers"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_likes"
+        android:enabled="true"
+        android:icon="@drawable/ic_like"
+        android:title="Likes"
+        app:showAsAction="ifRoom" />
+
+</menu>
